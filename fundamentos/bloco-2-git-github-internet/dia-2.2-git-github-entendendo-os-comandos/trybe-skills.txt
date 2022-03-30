@@ -1,0 +1,6 @@
+- Unix
+- Bash
+- Git
+- HTML 
+- CSS
+- Irei introduzir no HTML e CSS
