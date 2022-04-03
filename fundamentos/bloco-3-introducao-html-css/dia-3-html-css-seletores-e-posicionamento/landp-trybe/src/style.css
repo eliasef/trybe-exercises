@@ -1,0 +1,56 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  p, li {
+    color: #323f3a;
+  }
+
+  h1, h3 {
+    color: #0a7e51;
+  }
+
+  .trybe-green {
+    color: #0a7e51;
+  }
+/* 
+  #exemplo {
+    color: coral;
+  }
+
+  .class-mg {
+    color: dodgerblue;
+  } */
+
+  .hero-title {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+  }
+
+  .section-title {
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 600;
+  }
+
+  .picture {
+    border-radius: 100%;
+  }
+
+  .student-testimonial-name {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+
+  .button {
+    color: white;
+    background-color: #11a36a;
+    padding: 15px 30px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    border-radius: 4px;
+    text-decoration: none;
+  }
