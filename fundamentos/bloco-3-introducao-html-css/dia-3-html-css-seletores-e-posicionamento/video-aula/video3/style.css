@@ -1,0 +1,11 @@
+p {
+    font-family: monospace;
+}
+
+li:hover {
+    background-color: green;
+}
+
+li:active {
+    color: white;
+}
