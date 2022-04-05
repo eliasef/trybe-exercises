@@ -1,56 +1,99 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-  }
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
 
-  p, li {
-    color: #323f3a;
-  }
+p, li {
+  color: #323f3a;
+}
 
-  h1, h3 {
-    color: #0a7e51;
-  }
+h1, h3 {
+  color: #0a7e51;
+}
 
-  .trybe-green {
-    color: #0a7e51;
-  }
+.trybe-green {
+  color: #0a7e51;
+}
 /* 
-  #exemplo {
-    color: coral;
-  }
+#exemplo {
+  color: coral;
+}
+.class-mg {
+  color: dodgerblue;
+} */
 
-  .class-mg {
-    color: dodgerblue;
-  } */
+.hero-title {
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 600;
+}
 
-  .hero-title {
-    font-size: 45px;
-    line-height: 55px;
-    font-weight: 600;
-  }
+.section-title {
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 600;
+}
 
-  .section-title {
-    font-size: 28px;
-    line-height: 42px;
-    font-weight: 600;
-  }
+.picture {
+  border-radius: 100%;
+}
 
-  .picture {
-    border-radius: 100%;
-  }
+.student-testimonial-name {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+}
 
-  .student-testimonial-name {
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 600;
-  }
+.button {
+  color: white;
+  background-color: #11a36a;
+  padding: 15px 30px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  border-radius: 4px;
+  text-decoration: none;
+}
 
-  .button {
-    color: white;
-    background-color: #11a36a;
-    padding: 15px 30px;
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 700;
-    border-radius: 4px;
-    text-decoration: none;
-  }
+.header {
+ background-image: url(/images/smiling-image.jpg);
+ background-size: cover;
+ background-position: 50% 25%;
+ padding: 60px 30px 40px;
+}
+
+.header-content {
+  width: 50%;
+  padding-left: 60px;
+}
+
+.header-content p {
+  width: 80%;
+}
+
+.text-centered {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding: 84px 30px;
+}
+
+.section-title {
+  margin-bottom: 4rem;
+}
+
+.student-testimonial {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  margin: 22px;
+  vertical-align: middle;
+}
+
+.quem-somos {
+  border: 2px solid red;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  
+}

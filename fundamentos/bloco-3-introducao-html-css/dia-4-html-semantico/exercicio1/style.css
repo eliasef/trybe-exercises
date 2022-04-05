@@ -1,0 +1,97 @@
+body {
+    color: white;
+    background-color: #08348C;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-title {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+    padding: 13px;
+    margin-bottom: 25px;
+    background-color: #2a5bbd;
+}
+
+.box {
+    display: inline-block;
+    border: 2px solid #a0a8b9;
+    cursor: pointer; 
+    width: 150px;
+    border-radius: 15px;
+    color: white;
+    background-color: #2a5bbd;
+    padding: 10px 10px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    animation: slider .7s;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.content {
+    margin-top: 60px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.box:hover {
+    background-color: #02fdf0;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #08348C;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+
+.navigation {
+    font-size: 30px;
+    font-weight: bold;  
+}
+
+
+li {
+    list-style-position: inside;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.img1 {
+    border: 2px solid red;
+    width: 30%;
+}
+
+.background {
+    background-image: url(/exercicio1/stoma-bg.jpg);
+    background-size: cover;
+    background-position: 50% 25%;
+    padding: 85px 40px;
+}
+
