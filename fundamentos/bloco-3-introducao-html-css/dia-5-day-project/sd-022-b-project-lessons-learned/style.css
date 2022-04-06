@@ -1,0 +1,140 @@
+body {
+    background-color: rgb(253, 251, 251);
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+#cabecalho {
+    background-color: #098117;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+
+ol {
+    margin: 0
+}
+
+.nav {
+    display: inline-block;
+    cursor: pointer; 
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    animation: slider .7s;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* visited link */
+ol li a:visited {
+    color: rgb(255, 255, 255);
+  }
+
+  a:visited {
+    color: #098117;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #08348C;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+
+a {
+    text-decoration: none;
+}
+
+#minha_foto {
+    margin-top: 160px;
+    border: 8px solid #098117;
+    box-shadow: #098117 0px 1px 7px 4px;
+    border-radius: 100%;
+    width: 220px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.aprendidas {
+    margin-left: -360px;
+    margin-top: 2px;
+}
+
+#licoes_aprendidas {
+    font-size: 16px;
+    list-style-position: inside;
+    background-color: #098117;
+    padding: 12px;
+    border: 8px solid #afc0b2;
+    width: 15%;
+    margin-left: 600px;
+}
+
+#licoes_a_aprender {
+    list-style-position: inside;
+    background-color: #098117;
+    padding: 6px;
+    border: 8px solid #afc0b2;
+    width: 15%;
+    margin-left: 1000px;
+    margin-top: 10px;
+}
+
+.aprender {
+    margin-left: 410px;
+    margin-top: -330px;
+}
+
+span {
+    color: #098117;
+    font-weight: bold;
+}
+
+.lado-esquerdo {
+    margin-top: 30px;
+    width: 30%;
+    margin-left: 400px
+}
+
+.lado-direito {
+    margin-left: 20px;
+    width: 30%;
+    margin-left: 1000px;
+    margin-top: -100px;
+}
+
+.table {
+    line-height: 1;
+    padding: 10px;
+}
+
+.table {
+    margin-left: 783px;
+}
+
+.t-1 {
+    border: 2px solid black;
+}
+
+.t-2 {
+    border: 2px solid black;
+}
+
+
+#git {
+    margin-top: 65px;
+}
