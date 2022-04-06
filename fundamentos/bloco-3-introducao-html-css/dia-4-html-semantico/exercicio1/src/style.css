@@ -1,0 +1,159 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    color: white;
+    background-color: #08348C;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-title {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+    padding: 15px 10px 10px;
+    margin-bottom: 25px;
+    background-color: #2a5bbd;
+}
+
+.box {
+    display: inline-block;
+    border: 2px solid #a0a8b9;
+    cursor: pointer; 
+    width: 150px;
+    border-radius: 15px;
+    color: white;
+    background-color: #2a5bbd;
+    padding: 10px 10px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    animation: slider .7s;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+section ul li span {
+    background-color: #2a5bbd;
+}
+
+
+.content {
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.box:hover {
+    background-color: #02fdf0;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #08348C;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+
+.navigation {
+    font-size: 30px;
+    font-weight: bold;  
+}
+
+
+li {
+    list-style-position: inside;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.img1 {
+    border: 2px solid red;
+    width: 30%;
+}
+
+.background {
+    background-image: url(/images/stoma-bg.jpg);
+    background-size: cover;
+    background-position: 50% 25%;
+    padding: 85px 40px;
+}
+
+.container-2 {
+    text-align: center;
+    margin-left: -48px;
+    margin-top: 40px;
+    background-color: #2a5bbd;
+    padding: 10px;
+}
+
+.img {
+    width: 40%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border: 8px solid #5f8eeb;
+    border-radius: 10px;
+}
+
+.article {
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 50px;
+    width: 80%;
+}
+
+.fato {
+    margin-top: 20px;
+}
+
+.video h3 a {
+    text-decoration:underline
+}
+
+.video {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.referencias {
+    margin-bottom: 25px
+}
+
+.rodape {
+    margin-top: 20px;
+    padding: 20px;
+}
