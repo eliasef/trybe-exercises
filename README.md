@@ -37,3 +37,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 4-5: _JavaScript - Trabalhando com elementos_
 - [ ] 4-6: _JavaScript - Eventos_
 - [ ] 4-7: _JavaScript - Web Storage_
+
+##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
+
+- [x] 5-1: _JavaScript - DOM e seletores_
+- [ ] 5-2: _JavaScript - Trabalhando com elementos_
+- [ ] 5-3: _JavaScript - Eventos_
+- [ ] 5-4: _JavaScript - Web Storage_
+- [ ] 5-5: _Fundamentos - JavaScript - Projetos_
+- [ ] 5-5: _Projeto - Arte com Pixels_
+- [ ] 5-6: _Projeto - Lista de tarefas_
+- [ ] 5-7: _(Bônus) Projeto - Meme Generator_
+- [ ] 5-7: _(Bônus) Projeto - Adivinhe a Cor_
+- [ ] 5-7: _(Bônus) Projeto - Carta Misteriosa_
