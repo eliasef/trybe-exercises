@@ -226,11 +226,9 @@ function compromissos () {
 
       taskList.appendChild(newLi);
       input.value = '';
-    }
+    } 
   });
 
 }
-
-
 
 compromissos()
