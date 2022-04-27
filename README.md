@@ -30,10 +30,22 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 ##### Bloco 4: Introdução - JavaScript
 
-- [ ] 4-1: _JavaScript - Primeiros passos_
-- [ ] 4-2: _JavaScript - Array e loop For_
-- [ ] 4-3: _JavaScript - Objetos e funções_
-- [ ] 4-4: _JavaScript - DOM e seletores_
-- [ ] 4-5: _JavaScript - Trabalhando com elementos_
-- [ ] 4-6: _JavaScript - Eventos_
-- [ ] 4-7: _JavaScript - Web Storage_
+- [x] 4-1: _JavaScript - Primeiros passos_
+- [X] 4-2: _JavaScript - Array e loop For_
+- [X] 4-3: _JavaScript - Objetos e funções_
+- [X] 4-4: _JavaScript - Lógica de programação_
+- [X] 4-5: _JavaScript - Playground Functions_
+
+
+##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
+
+- [x] 5-1: _JavaScript - DOM e seletores_
+- [X] 5-2: _JavaScript - Trabalhando com elementos_
+- [X] 5-3: _JavaScript - Eventos_
+- [X] 5-4: _JavaScript - Web Storage_
+- [ ] 5-5: _Fundamentos - JavaScript - Projetos_
+- [ ] 5-5: _Projeto - Arte com Pixels_
+- [ ] 5-6: _Projeto - Lista de tarefas_
+- [ ] 5-7: _(Bônus) Projeto - Meme Generator_
+- [ ] 5-7: _(Bônus) Projeto - Adivinhe a Cor_
+- [ ] 5-7: _(Bônus) Projeto - Carta Misteriosa_

@@ -228,7 +228,4 @@ function compromissos () {
       input.value = '';
     } 
   });
-
 }
-
-compromissos()
