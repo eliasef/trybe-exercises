@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Ubuntu';
+  font-family: "Ubuntu";
 }
 
 .header-img {
@@ -32,24 +32,32 @@
   justify-content: center;
 }
 
+h3 {
+  cursor: pointer;
+}
+
+img {
+  cursor: pointer;
+}
+
 #techs {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 50%;
-  margin: 13px auto 43px;
+  margin: 30px auto 30px;
 }
 
 .tech {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: rgb(241, 241, 241);
   margin: 5px;
-  border-radius: 15px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  height: 220px;
-  width: 180px;
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
 }
 
 #footer {
