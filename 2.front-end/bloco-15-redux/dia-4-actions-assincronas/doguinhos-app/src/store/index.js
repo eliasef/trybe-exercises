@@ -27,14 +27,29 @@ function actionFailedRequest(error) {
 }
 
 export function actionFetchDog() {
-    return (dispatch) => {
+    return async (dispatch) => {
         dispatch(actionRequestDog());
-        return fetch('https://dog.ceo/api/breeds/image/random')
-        .then(response => response.json())
-        .then(json => dispatch(actionGetImage(json)))
-        .catch(error => dispatch(actionFailedRequest(error)))
-    };
+        try {
+            const resolve = await fetch('https://dog.ceo/api/breeds/image/random')
+            const data = await resolve.json();
+            dispatch(actionGetImage(data))
+        } catch (error) {
+            dispatch(actionFailedRequest(error))
+        }
+    }
 }
+
+// export function actionFetchDog() {
+//     return (dispatch) => {
+//         dispatch(actionRequestDog());
+//         return fetch('https://dog.ceo/api/breeds/image/random')
+//         .then(response => response.json())
+//         .then(json => dispatch(actionGetImage(json)))
+//         .catch(error => dispatch(actionFailedRequest(error)))
+//     };
+// }
+
+
 
 const INITIAL_STATE = {
     isFetching: false,

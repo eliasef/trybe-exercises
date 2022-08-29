@@ -16,7 +16,8 @@ function App({ isFetching, src, fetchDog }) {
         >
           Novo Doguinho
         </button>
-      <img style={{ width: '100%'}} src={src} alt="dog" />
+      {src ? <img style={{ width: '100%'}} src={src} alt="dog" /> : <p>Busque um doguinho</p>}
+      
       </div>
     )
   );
