@@ -66,5 +66,3 @@ function App() {
 }
 
 export default App;
-
-// FONTE AULA: https://codesandbox.io/s/goofy-dijkstra-vwotiy?file=/src/App.js
