@@ -49,8 +49,6 @@ export function actionFetchDog() {
 //     };
 // }
 
-
-
 const INITIAL_STATE = {
     isFetching: false,
     imagePath: '',
