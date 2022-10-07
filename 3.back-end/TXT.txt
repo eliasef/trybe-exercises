@@ -1,2 +1,0 @@
-obs os exercicios estão na primeira pasta "trybe-exercicios"
-
