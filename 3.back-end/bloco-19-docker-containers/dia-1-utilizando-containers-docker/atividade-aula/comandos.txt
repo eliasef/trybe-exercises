@@ -1,0 +1,21 @@
+docker <comando> <subcomando> <parâmetros>
+
+Os <parâmetros>
+
+--help no <comando> ou <subcomando>
+
+
+
+docker ps
+docker ps -a
+
+docker run hello-world
+docker ps -a (ver tds containers (all de todos, pausados/ligados)
+
+docker container prune (elimina todos os container pausados)
+
+docker images (mostra tds imagens, imagens são protótipos)
+
+Exemplo: docker container --help
+
+exmp2: docker run hello-world
