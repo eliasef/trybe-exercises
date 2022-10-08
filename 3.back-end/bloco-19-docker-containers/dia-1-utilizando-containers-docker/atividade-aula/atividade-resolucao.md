@@ -62,3 +62,8 @@
 <em>ver o image id com o docker images, supondo ser 216..</em>
 
 `docker rmi 216`
+
+
+// observações:
+o exec executa um comando do container, a diferença entre ele e o run é que ele executa um comando, ex: 
+docker exec -it meu-container sh

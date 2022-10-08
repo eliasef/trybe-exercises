@@ -12,6 +12,11 @@ docker ps -a
 docker run hello-world
 docker ps -a (ver tds containers (all de todos, pausados/ligados)
 
+docker system prune -af 
+(limpa td)
+
+-d roda em background (n entra no container)
+
 docker container prune (elimina todos os container pausados)
 
 docker images (mostra tds imagens, imagens são protótipos)
