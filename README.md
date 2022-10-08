@@ -54,7 +54,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 6-3: _CSS Flexbox - Part 1_
 - [x] 6-4: _CSS Flexbox - Part 2_
 - [x] 6-5: _CSS Responsivo - Mobile First_
-- [x] 6-6: _[Projeto - TrybeWarts](https://eliasef.github.io/trybe-warts/)_
+- [x] 6-6: _[Projeto - TrybeWarts](https://github.com/eliasef/trybe-warts)_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
