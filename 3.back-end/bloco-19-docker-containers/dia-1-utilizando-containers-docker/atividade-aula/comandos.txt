@@ -24,3 +24,6 @@ docker images (mostra tds imagens, imagens são protótipos)
 Exemplo: docker container --help
 
 exmp2: docker run hello-world
+
+cat /etc/*-version
+
