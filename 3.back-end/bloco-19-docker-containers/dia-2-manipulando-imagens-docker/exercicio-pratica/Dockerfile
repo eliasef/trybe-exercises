@@ -1,7 +1,7 @@
 FROM chuanwen/cowsay:latest
 
 ENTRYPOINT [ "/usr/games/cowsay" ]
-# defino um entrypoint para a execução do mando
+# defino um entrypoint para a execução do comando
 
 CMD ["#SOU BACK"]
 
