@@ -1,0 +1,26 @@
+# Esse arquivo funcionar como o docker build, vai fzr o docker run pros 3 serviços
+
+version: '3'
+services:
+  frontend:
+    build: frontend/
+    restart: on-failure
+    ports:
+      - 3000:3000
+    
+  backend: 
+    build: backend/
+    restart: on-failure
+    ports: 
+      - 3001:3001
+    environment:
+      - DB_BASE=database
+  database: 
+    image: betrybe/docker-compose-example-database:v1
+    restart: on-failure
+    environment:
+      - DB_HOST=value
+
+# define que o container será reiniciado caso ocorra alguma falha apontada pelo exit code, diferente de zero;
+
+# O serviço de backend agr possui uma variável chamada DB_BASE, que pode ser usada para se comunicar c/ o banco de dados
