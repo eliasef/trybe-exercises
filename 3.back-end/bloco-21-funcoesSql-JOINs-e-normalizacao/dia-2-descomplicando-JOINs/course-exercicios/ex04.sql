@@ -6,12 +6,17 @@ SELECT * FROM pixar.theater;
 
 SELECT
 	th.name AS cine,
+    th.location,
 	mo.title AS movie,
     mo.director,
+    mo.year,
     mo.length_minutes
 FROM
-	pixar.movies AS mo
-    LEFT JOIN 
+	pixar.theater AS th
+LEFT JOIN pixar.movies AS mo
+    ON mo.theater_id = th.id
+ORDER BY
+	th.name;
     
 -- LEFT: tem 1 null e um dado
 -- RIGHT: ambos são nulls
