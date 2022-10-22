@@ -1,5 +1,5 @@
 -- Exercício 1: Utilizando o INNER JOIN, encontre as vendas nacionais 
--- (domestic_sales) e internacionais (international_sales) de cada filme.
+-- (domestic_sales) e internacionais (international_sales) de cada filme!
 
 SELECT * FROM pixar.movies;
 SELECT * FROM pixar.box_office;
