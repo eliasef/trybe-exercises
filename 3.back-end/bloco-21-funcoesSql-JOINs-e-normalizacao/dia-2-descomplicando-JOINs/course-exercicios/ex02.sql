@@ -1,4 +1,4 @@
--- 🚀Exercício 2: Utilizando o INNER JOIN, faça uma busca que retorne o número de vendas para cada filme que possui um número maior de vendas internacionais
+-- 🚀:rocket: Exercício 2: Utilizando o INNER JOIN, faça uma busca que retorne o número de vendas para cada filme que possui um número maior de vendas internacionais
 -- (international_sales) do que vendas nacionais (domestic_sales).
 
 SELECT * FROM pixar.movies;
