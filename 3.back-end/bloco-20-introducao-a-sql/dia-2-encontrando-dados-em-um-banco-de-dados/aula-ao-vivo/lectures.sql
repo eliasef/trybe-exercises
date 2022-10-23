@@ -32,6 +32,7 @@ SELECT
 	COUNT(address) AS amount_calif_dist
 FROM 
 	sakila.address
+    
 WHERE
 	district = 'California';
     
