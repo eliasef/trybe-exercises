@@ -14,6 +14,3 @@ FROM
     ON mo.id = bo.movie_id
 WHERE
 	bo.international_sales > bo.domestic_sales;
-
-	
-	

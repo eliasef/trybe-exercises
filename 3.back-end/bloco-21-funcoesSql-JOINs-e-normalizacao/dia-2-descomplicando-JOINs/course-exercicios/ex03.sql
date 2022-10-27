@@ -12,4 +12,3 @@ FROM
 	ON mo.id = bo.movie_id
 ORDER BY
 	bo.rating DESC;
-
