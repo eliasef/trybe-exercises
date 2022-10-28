@@ -1,0 +1,17 @@
+{
+  "name": "course",
+  "version": "1.0.0",
+  "description": "primeiro programa em node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node hello.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "eliasef",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.10",
+    "readline-sync": "^1.4.10"
+  }
+}
