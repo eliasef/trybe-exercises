@@ -1,0 +1,21 @@
+{
+  "name": "dia2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/api/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "debug": "nodemon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-trybe-backend": "^2.1.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
