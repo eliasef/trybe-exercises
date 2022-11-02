@@ -1,0 +1,16 @@
+{
+  "name": "exercicios",
+  "version": "1.0.0",
+  "description": "exercicios do dia",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "bmi": "node bmi.js"
+  },
+  "author": "turma 23",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-trybe-backend": "^2.1.0",
+    "readline-sync": "^1.4.10"
+  }
+}

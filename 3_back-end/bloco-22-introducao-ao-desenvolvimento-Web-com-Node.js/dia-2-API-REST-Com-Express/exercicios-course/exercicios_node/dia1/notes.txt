@@ -1,0 +1,7 @@
+eslint-config-trybe-backend
+
+{
+  "extends": "trybe-backend"
+}
+
+readline-sync
