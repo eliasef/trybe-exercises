@@ -1,0 +1,17 @@
+version: '3'
+services:
+  database:
+    image: mysql:8.0.29
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: todolistdb
+      ## é o nome do bd pedido no exercício!
+    ports:
+      - "3307:3306"
+    container_name: tododb
+
+      ## nos projetos geralmente o do container é 3307
+
+      ## container é a parte 33060 (container) POSSO BOTAR OQ QUISER
+      ## a parte da direita smp é fixo (da maquina)
