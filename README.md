@@ -1,10 +1,19 @@
+<small>(for the English version, <a href="#en">click here</a>)</small>
+
 # Trybe
+<h2>:brazil: Português</h2>
+<p id="pt">Portfólio de exercícios e atividades realizadas por <a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external"Elias Ferreira</a> no decorrer do curso de Desenvolvimento Web da <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>.</p>
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Elias Ferreira](https://www.linkedin.com/in/eliasef/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
+<p>Turma 22 | Abril de 2022.</p>
+<blockquote>
+  <i>
+    <p>"A Trybe é uma escola de tecnologia que tem comprometimento genuíno com o sucesso proﬁssional das pessoas estudantes. Com o Modelo de Sucesso Compartilhado, quem estuda na Trybe tem a opção de pagar apenas quando já estiver trabalhando.</p>
+    <p>São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento web, desenvolvimento, Front-end, Back-end, ciência da computação, metodologias ágeis e habilidades comportamentais."</p>
+  </i>
+</blockquote>
 
-_"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
-
-O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+<h3>Aviso de direitos autorais</h3>
+<p>As resoluções dos exercícios publicadas aqui, bem como os textos de descrição de cada módulo, bloco e dia em português e inglês são de minha autoria e os direitos pertencem exclusivamente a mim. É permitido baixar ou clonar o repositório para fins de estudo, porém, não é permitido publicar cópias totais nem parciais. Este aviso não cobre as bibliotecas e dependências, estas estão sujeitas a licenças próprias.</p>
 
 ## Introdução - Desenvolvimento Web :white_check_mark:
 
@@ -79,3 +88,62 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 9-2: _JavaScript Assíncrono e Callbacks_
 - [x] 9-3: _JavaScript Promises_
 - [x] 9-4: _[Projeto - Carrinho de Compras]()_
+
+<br>
+<br>
+
+<h2 id="en">:us: English</h2>
+<p>Portfolio of exercises and activities performed by <a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a> during the Web Development course at <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>.</p>
+<p>19th Class | November 2021.</b>
+<blockquote>
+  <i>
+      <p>"Trybe is a technology school that has a genuine commitment to the professional success of its students. With the Shared Success Model, those who study at Trybe have the option of paying only when they are already working.</b>
+      <p>There are more than 1500 hours of training that covers the fundamentals of web development, development, Front-end, Back-end, computer science, agile methodologies, and soft skills."</p>
+  </i>
+</blockquote>
+
+<h3>Copyright disclaimer</h3>
+<p>The resolutions of the exercises published here, as well as the description texts of each module, unit and day in Portuguese and English are my authorship and the rights belong exclusively to me. It is allowed to download or clone the repository for study purposes. However, it is not allowed to publish full or partial copies. This disclaimer does not cover libraries and dependencies, which are subject to their respective licenses.</p>
+
+## [Principles of Web Development](https://github.com/raphaelalmeidamartins/trybe_exercicios/tree/main/1_fundamentos-do-desv-web) :heavy_check_mark:
+
+
+
+##### Bloco 1: Introduction - Unix & Shell
+
+- [x] 1-3: _Unix & Bash - Part 1_
+- [x] 1-4: _Unix & Bash - Part 2_
+- [x] 1-5: _Shell Script_
+
+##### Bloco 2: Git & GitHub
+
+- [x] 2-1: _What is it and what is it for?_
+- [x] 2-2: _Understanding the commands_
+- [x] 2-3: _Internet - Understanding how it works_
+
+##### Bloco 3: Introduction - HTML & CSS
+
+- [X] 3-1: _HTML & CSS - Page Structures_
+- [x] 3-2: _HTML & CSS - Getting Started with CSS_
+- [x] 3-3: _HTML & CSS - Selectors and Positioning_
+- [x] 3-4: _HTML Semantic_
+- [x] 3-5: _[Projeto - HTML & CSS](https://eliasef.github.io/project1-trybe/)_
+
+##### Bloco 4: Introduction - JavaScript
+
+- [x] 4-1: _JavaScript - First steps_
+- [x] 4-2: _JavaScript - Array and loop For_
+- [x] 4-3: _JavaScript - Objecsts and functions_
+- [x] 4-4: _JavaScript - DOM and selectors_
+- [x] 4-5: _JavaScript - Working with elements_
+- [x] 4-6: _JavaScript - Events_
+- [x] 4-7: _JavaScript - Web Storage_
+
+##### Bloco 5: Introduction - JavaScript - Projetos
+
+- [x] 5-0: _[Projeto - Playground Functions](https://github.com/EliasEF/playground-functions)_
+- [x] 5-1: _[Projeto - Meme Generator](https://eliasef.github.io/meme-generator/)_
+- [x] 5-2: _[Projeto - Pixel Art](https://eliasef.github.io/pixels-art/)_
+- [x] 5-3: _[Projeto - To-Do List](https://eliasef.github.io/to-do-list/)_
+- [x] 5-4: _[Projeto - Color Guess](https://eliasef.github.io/color-guess/)_
+- [x] 5-5: _[Projeto - Mistery Letter](https://eliasef.github.io/mistery-letter/)_
