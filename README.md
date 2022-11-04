@@ -2,7 +2,7 @@
 
 # Trybe
 <h2>:brazil: Português</h2>
-<p id="pt">Portfólio de exercícios e atividades realizadas por <a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external"Elias Ferreira</a> no decorrer do curso de Desenvolvimento Web da <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>.</p>
+<p id="pt">Portfólio de exercícios e atividades realizadas por <a href="https://www.linkedin.com/in/eliasef/" target="_blank" rel="external"Elias Ferreira</a> no decorrer do curso de Desenvolvimento Web da <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>.</p>
 
 <p>Turma 22 | Abril de 2022.</p>
 <blockquote>
@@ -93,7 +93,7 @@
 <br>
 
 <h2 id="en">:us: English</h2>
-<p>Portfolio of exercises and activities performed by <a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a> during the Web Development course at <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>.</p>
+<p>Portfolio of exercises and activities performed by <a href="https://www.linkedin.com/in/eliasef/" target="_blank" rel="external">Elias Ferreira</a> during the Web Development course at <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>.</p>
 <p>19th Class | November 2021.</b>
 <blockquote>
   <i>
