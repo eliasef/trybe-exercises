@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            color: #555;
+            background-color: #5B9EED;
+        }
+
+        img {
+            width: 130px;
+        }
+
+        .list-container {
+            width: 90%;
+            max-width: 400px;
+            margin: 30px auto;
+        }
+
+        .list {
+            background-color: #FFF;
+            list-style: none;
+            margin: 0;
+            padding: 15px;
+            border-radius: 2px;
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+        }
+
+        .list .list-item {
+            display: flex;
+            padding: 10px 5px;
+        }
+
+        .list .list-item:not(last-child) {
+            border-bottom: 1px solid #EEE;
+        }
+
+        .list .list-item_image {
+            flex-shrink: 0;
+            height: 170px;
+        }
+
+        .list .list-item_image img {
+            margin-left: 30px;
+            border-radius: 50%;
+            width: 80px;
+            height: 150px;
+        }
+        
+        .list .list-item_content h4{
+            flex-grow: 1;
+            padding: 0 20px;
+        }
+
+        .list .list-item_content {
+            margin: 0;
+            font-size: 18px;
+            margin-top: 15px;
+        }
+
+        .list .list-item_content p {
+            margin-top: 5px;
+            color: #AAA;
+            margin-bottom: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- 
+        https://webdesign.tutsplus.com/pt/tutorials/exercises-in-flexbox-simple-web-components--cms-28049
+
+        Exercício 1: Componente de Lista de Miniaturas
+        Usamos listas para mostrar informações, como listas de músicas, detalhes de usuário ou filmes. Geralmente, esses listas contém imagens conhecidas como "miniaturas". Alinhar imagens no modo tradicional é complicado e inconsistente, mas com Flexbox, estilizamos um componente de lista com o mínimo de CSS. 
+    -->
+    <div class="list-container">
+        <ul class="list">
+            <!-- List Item -->
+            <li class="list-item">
+                <div class="list-item_content">
+                    <h4>Roronoa Zoro</h4>
+                    <p>Swordsman</p>
+                </div>
+                <div class="list-item_image">
+                    <img src="img/zoro.jpg" alt="zoro"/>
+                </div>
+            </li>
+            <li class="list-item">
+                <div class="list-item_content">
+                    <h4>Trafalgar D. Law</h4>
+                    <p>Death Surgeon</p>
+                </div>
+                <div class="list-item_image">
+                    <img src="img/law.png" alt="law"/>
+                </div>
+            </li>
+            <li class="list-item">
+                <div class="list-item_content">
+                    <h4>Monkey D. Luffy</h4>
+                    <p>Captain of Straw Hats</p>
+                </div>
+                <div class="list-item_image">
+                    <img src="img/luffy.jpg" alt="luffy"/>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
