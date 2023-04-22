@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            color: #555;
+            background-color: #995BED;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .sidebar-container{
+  width: 300px;
+  margin: 30px auto;
+}
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            height: 445px;
+            background-color: #FFF;
+            border-radius: 2px;
+        }
+
+        .sidebar_logo h3 {
+            text-transform: uppercase;
+            color: #CCC;
+            text-align: center;
+        }
+
+        .sidebar_nav {
+            flex-grow: 1;
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .sidebar_nav li {
+            padding: 15px;
+            cursor: pointer;
+        }
+
+        .sidebar_nav li.active, .sidebar_nav li:hover {
+            background-color: #F7F2FF;
+            color: #995BED;
+        }
+
+        /* esse trecho é o que modifica os emojis (ícones) */
+        /* .sidebar__nav li i{
+                width: 25px;
+                display: inline-block;
+                text-align: center;
+            } */
+
+        .sidebar_profile {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .sidebar_profile img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }   
+
+    </style>
+</head>
+<body>
+    <div class="sidebar-container">
+        <div class="sidebar">
+            <div class="sidebar_logo">
+                <h3>Sidebar</h3>
+                <div class="sidebar_profile">
+                    <img src="https://i.pinimg.com/736x/d8/71/2a/d8712a84732301b8804cd88928639c5d.jpg" alt="Profile">
+                    <h4>Elias Ferreira</h4>
+                </div>
+            </div>
+            <ul class="sidebar_nav">
+                <li>🏠 Home</li>
+                <li>🧑 About Me</li>
+                <li>📷 Portfolio</li>
+                <li>✉️ Contacts</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
