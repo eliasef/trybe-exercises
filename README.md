@@ -1,6 +1,6 @@
 <small>(for the English version, <a href="#en">click here</a>)</small>
 
-# Trybe
+# Trybe.
 <h2>:brazil: Português</h2>
 <p id="pt">Portfólio de exercícios e atividades realizadas por <a href="https://www.linkedin.com/in/eliasef/" target="_blank" rel="external"Elias Ferreira</a> no decorrer do curso de Desenvolvimento Web da <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>.</p>
 
