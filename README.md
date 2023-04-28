@@ -1,4 +1,4 @@
-<small>(for the English version, <a href="#en">click here</a>)</small>
+<small>(for the English version, <a href="#en">click here</a>)</small>!
 
 # Trybe
 <h2>:brazil: Português</h2>
